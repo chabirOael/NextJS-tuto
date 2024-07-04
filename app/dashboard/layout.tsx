@@ -1,4 +1,6 @@
-import SideNav from "../ui/dashboard/sidenav";
+import SideNav from "@/app/ui/dashboard/sidenav";
+
+export const experimetal_ppr = true;
 
 export default function layout({ children }: { children: React.ReactNode }) {
     return (
